@@ -1,6 +1,6 @@
 .skillsWrapper {
     background-color: #7ab67a;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 .skillsContainer{
@@ -13,4 +13,8 @@
 .skills{
     width: 100%;
     border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
 }

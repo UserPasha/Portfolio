@@ -1,0 +1,33 @@
+.contactsWrapper {
+    background-color: #e08d6e;
+    height: 100vh;
+    width: 100%;
+}
+
+.contactsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.contactsForm {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactsContainer input {
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+}
+.contactsContainer textarea{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.contactsContainer button {
+    width: 100px;
+    height: 30px;
+    margin-top: 50px;
+}

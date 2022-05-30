@@ -1,0 +1,27 @@
+.projectWrapper {
+    width: 300px;
+    height: 400px;
+    background-color: #2aa2b2;
+    border: 1px solid aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imageHolder {
+    border: 1px solid #750c79;
+}
+
+.projectWrapper button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 80px;
+
+}
+
+.description {
+    display: block;
+    background-color: white;
+}

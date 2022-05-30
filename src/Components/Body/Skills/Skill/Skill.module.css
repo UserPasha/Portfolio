@@ -1,15 +1,15 @@
 .skillWrapper{
     width: 250px;
-    height: 100px;
+    min-height: 100px;
     background-color: #63f36f;
     border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .icon{
-
-}
-.skillTitle{
-
-}
-.description{
-
+    width: 60px;
+    height: 60px;
+    background-color: #de9906;
 }
