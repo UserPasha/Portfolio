@@ -7,7 +7,7 @@ const Works = () => {
     return (
         <div className={c.worksWrapper}>
             <div className={`${cont.container} ${c.worksContainer}`}>
-                <h2>My Projects</h2>
+                <h2 className={c.workTitle}>My Projects</h2>
                 <div className={c.projects}>
                     <Project name={"Project One"} description={"lorem is Lorem ipsum dolor sit amet consectetur" +
                         " adipisicing elit. Aliquid, similique."}/>

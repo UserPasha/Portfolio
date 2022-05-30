@@ -4,13 +4,13 @@ import c from "./Project.module.css"
 const Project = (props) => {
     return (
         <div className={c.projectWrapper}>
-
+            <div className={c.imageHolder}>
                 <button>Watch</button>
-
-
-                <h3 className={c.title}>{props.name}</h3>
-               <span className={c.description}> {props.description}</span>
-
+            </div>
+            <div className={c.projectDescription}>
+            <h3 className={c.title}>{props.name}</h3>
+            <span className={c.description}> {props.description}</span>
+            </div>
         </div>
     );
 };

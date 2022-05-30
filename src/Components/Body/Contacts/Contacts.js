@@ -7,7 +7,7 @@ const Contacts = () => {
     return (
         <div className={c.contactsWrapper}>
             <div className={`${cont.container} ${c.contactsContainer}`}>
-                <h3>Contacts</h3>
+                <h3 className={c.contactsTitle}>Contacts</h3>
                 <form className={c.contactsForm}>
                     <input/>
                     <input/>

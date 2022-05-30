@@ -4,6 +4,13 @@
     width: 100%;
 }
 
+.worksContainer{
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.workTitle{
+    background-color: #b7b6b6;
+}
 .projects {
     display: flex;
     justify-content: space-between;
@@ -12,8 +19,4 @@
     margin-top: 50px;
     flex-wrap: wrap;
     border: 1px solid black;
-}
-.worksContainer{
-    justify-content: flex-start;
-    flex-direction: column;
 }
