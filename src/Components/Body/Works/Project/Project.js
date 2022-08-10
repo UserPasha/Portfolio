@@ -1,10 +1,12 @@
 import React from 'react';
-import c from "./Project.module.css"
+import c from "./Project.module.scss"
+
 
 const Project = (props) => {
     return (
         <div className={c.projectWrapper}>
-            <div className={c.imageHolder}>
+
+            <div className={c.imageHolder} style={props.style}>
                 <button>Watch</button>
             </div>
             <div className={c.projectDescription}>

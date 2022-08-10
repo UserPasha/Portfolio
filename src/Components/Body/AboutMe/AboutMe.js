@@ -1,6 +1,6 @@
 import React from 'react';
-import c from "./AboutMe.module.css"
-import cont from "./../../../Common/Styles/Container.module.css"
+import c from "./AboutMe.module.scss"
+import cont from "../../../Common/Styles/Container.module.scss"
 
 const AboutMe = () => {
     return (

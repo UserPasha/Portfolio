@@ -1,0 +1,91 @@
+@import "./src/Common/Styles/variables.scss";
+
+.aboutMeWrapper {
+  background-color: $secondBackGround;
+  height: 100vh;
+  width: 100%;
+
+  .text {
+    width: 800px;
+    font-size: 60px;
+    border-radius: 15px;
+    background-color:$secondPrimaryColor;
+  }
+  .photo {
+    width: 600px;
+    height: 800px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+  }
+}
+
+@media  (max-width: 360px){
+  .aboutMeWrapper{
+    width: 360px;
+    display: flex;
+    .text{
+      padding: 20px;
+      width: 360px;
+      font-size: 18px;
+    }
+    .photo{
+      width: 360px;
+      max-height: 440px;
+    }
+  }
+}
+
+@media  (max-width: 1200px){
+  .aboutMeWrapper{
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+    .text{
+      padding: 20px;
+      width: 600px;
+      font-size: 18px;
+      margin: 0 auto;
+    }
+    .photo{
+      width: 500px;
+      height: 440px;
+      margin: 0 auto;
+    }
+  }
+}
+@media  (max-width: 1600px){
+  .aboutMeWrapper{
+    width: 100%;
+    display: flex;
+    .text{
+      padding: 20px;
+      width: 800px;
+      font-size: 18px;
+      margin: 0 auto;
+    }
+    .photo{
+      width: 600px;
+      height: 800px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media  (max-width: 1900px){
+  .aboutMeWrapper{
+    width: 100%;
+    display: flex;
+    .text{
+      padding: 20px;
+      width: 800px;
+      font-size: 18px;
+      margin: 0 auto;
+    }
+    .photo{
+      width: 600px;
+      height: 800px;
+      margin: 0 auto;
+    }
+  }
+}
+

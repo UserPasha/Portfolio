@@ -1,0 +1,35 @@
+@import "/src/Common/Styles/variables";
+
+.skillsWrapper {
+  background-color: $backGroundColor;
+  min-height: 760px;
+  width: 100%;
+
+  .skillsContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media  (max-width: 360px){
+  .skillsWrapper{
+    .skillsContainer{
+      .skills{
+
+      }
+    }
+  }
+}
+
+@media  (max-width: 1200px){
+
+}
+
