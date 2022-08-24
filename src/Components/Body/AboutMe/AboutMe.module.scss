@@ -2,14 +2,20 @@
 
 .aboutMeWrapper {
   background-color: $secondBackGround;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
+  padding: 100px 0;
 
   .text {
-    width: 800px;
-    font-size: 60px;
+    font-size: 30px;
     border-radius: 15px;
     background-color:$secondPrimaryColor;
+    padding: 50px;
+    margin-bottom: 20px;
+
+    h1{
+      margin: 0;
+    }
   }
   .photo {
     width: 600px;
@@ -35,57 +41,16 @@
   }
 }
 
-@media  (max-width: 1200px){
+@media  (max-width: 768px){
   .aboutMeWrapper{
-    width: 1200px;
-    height: 1200px;
-    display: flex;
     .text{
       padding: 20px;
-      width: 600px;
       font-size: 18px;
-      margin: 0 auto;
     }
     .photo{
-      width: 500px;
-      height: 440px;
-      margin: 0 auto;
-    }
-  }
-}
-@media  (max-width: 1600px){
-  .aboutMeWrapper{
-    width: 100%;
-    display: flex;
-    .text{
-      padding: 20px;
-      width: 800px;
-      font-size: 18px;
-      margin: 0 auto;
-    }
-    .photo{
-      width: 600px;
-      height: 800px;
-      margin: 0 auto;
+      max-height: 440px;
     }
   }
 }
 
-@media  (max-width: 1900px){
-  .aboutMeWrapper{
-    width: 100%;
-    display: flex;
-    .text{
-      padding: 20px;
-      width: 800px;
-      font-size: 18px;
-      margin: 0 auto;
-    }
-    .photo{
-      width: 600px;
-      height: 800px;
-      margin: 0 auto;
-    }
-  }
-}
 

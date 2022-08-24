@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  margin: 20px;
 
   .imageHolder {
     width: 100%;
@@ -69,17 +70,6 @@
   }
 }
 
-@media (max-width: 1200px){
-  .projectWrapper{
-    width: 380px;
-    height: 500px;
-    margin: 20px auto;
-    .imageHolder{
-      height: 440px;
-      width: 380px;
-    }
-  }
-}
 
 
 

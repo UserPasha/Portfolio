@@ -3,6 +3,8 @@
     background-color: $secondBackGround;
     min-height: 100vh;
     width: 100%;
+    padding-bottom: 100px;
+
     .worksContainer{
         justify-content: flex-start;
         flex-direction: column;
@@ -20,13 +22,14 @@
     }
 }
 
-@media (max-width: 360px){
+@media  (max-width: 768px), (min-width: 768px){
   .worksWrapper{
-    width: 360px;
     .worksContainer{
-      projects{
-        width: 360px;
+      .projects{
+        justify-content: center;
       }
     }
   }
+
 }
+

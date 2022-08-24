@@ -8,7 +8,8 @@ const AboutMe = () => {
             <div className={cont.container}>
                 <div className={c.text}>
                     <span>Hi There</span>
-                    <h1>I am Pavel Romanovich</h1>
+                    <h1>I am Pavel</h1>
+                    <h1>Romanovich</h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={c.photo}>

@@ -3,8 +3,9 @@
 .footerWrapper {
   background-color: $secondBackGround;
   width: 100%;
-  min-height: 200px;
+  min-height: 100px;
   text-align: center;
+  padding: 10px 0;
 
   .footerTitleWrapper {
     width: 100%;
@@ -30,12 +31,12 @@
   }
 
   .container {
-    height: 200px;
+    min-height: 100px;
     justify-content: space-around;
 
     .item {
-      width: 100px;
-      height: 80px;
+      width: 80px;
+      height: 60px;
       background-color: black;
       border: 1px solid $primaryColor;
     }

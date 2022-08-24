@@ -4,6 +4,7 @@
   background-color: $backGroundColor;
   min-height: 760px;
   width: 100%;
+  padding-bottom: 100px;
 
   .skillsContainer {
     justify-content: flex-start;
@@ -14,22 +15,19 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin-top: 50px;
+
     }
   }
 }
 
-@media  (max-width: 360px){
+@media  (max-width: 768px), (min-width: 768px){
   .skillsWrapper{
     .skillsContainer{
       .skills{
-
+        justify-content: center;
       }
     }
   }
 }
 
-@media  (max-width: 1200px){
-
-}
 

@@ -14,6 +14,7 @@
   text-align: center;
   color: $textColor;
   padding: 20px;
+  margin: 20px;
 
   &:hover {
     border: 1px solid $primaryColor;
@@ -52,10 +53,3 @@
   }
 }
 
-@media  (max-width: 1200px){
-  .skillWrapper {
-    min-width: 300px;
-    max-width: 300px;
-    margin: 10px auto;
-  }
-}
