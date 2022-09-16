@@ -5,6 +5,18 @@
   min-height: 100vh;
   width: 100%;
   padding: 100px 0;
+  &::before{
+    content:'';
+    position: absolute;
+    top: 72%;
+    left: 60%;
+    background-color: $secondBackGround;
+    width: 500px;
+    height: 500px;
+    transform: rotate(45deg);
+    z-index: 0;
+  }
+
 
   .text {
     font-size: 30px;
@@ -12,6 +24,7 @@
     background-color:$secondPrimaryColor;
     padding: 50px;
     margin-bottom: 20px;
+    z-index: 1;
 
     h1{
       margin: 0;
@@ -20,8 +33,9 @@
   .photo {
     width: 600px;
     height: 800px;
-    background-color: cornflowerblue;
+    background-color: $backGroundColor;
     border-radius: 15px;
+    z-index: 1;
   }
 }
 

@@ -4,6 +4,16 @@
     min-height: 100vh;
     width: 100%;
     padding-bottom: 100px;
+    &::before{
+      content:'';
+      position: absolute;
+      inset: -60px;
+      background-color: $secondBackGround;
+      width: 500px;
+      height: 500px;
+      transform: rotate(30deg);
+      z-index: -1;
+    }
 
     .worksContainer{
         justify-content: flex-start;

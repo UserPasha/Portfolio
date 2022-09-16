@@ -6,6 +6,7 @@ import Title from "../../../Common/Components/Title";
 import htmlIcon from "./../../../assets/image/Html.svg"
 import cssIcon from "./../../../assets/image/Css.svg"
 import reactIcon from "./../../../assets/image/React.svg"
+import common from './../../../Common/Styles/Parallax.module.scss'
 
 
 const Skills = () => {
@@ -16,15 +17,17 @@ const Skills = () => {
 
                 <div className={c.skills}>
 
-                    <Skill title={'HTML'} src={htmlIcon} description={"lorem is Lorem ipsum dolor sit amet consectetur" +
-                        " adipisicing elit. Aliquid, similique.Lorem ipsum dolor sit amet, consectetur " +
-                        "adipisicing elit. Laudantium natus dignissimos nesciunt harum eveniet dolore esse,"} />
+                    <Skill title={'HTML'} src={htmlIcon}
+                           description={"lorem is Lorem ipsum dolor sit amet consectetur" +
+                               " adipisicing elit. Aliquid, similique.Lorem ipsum dolor sit amet, consectetur " +
+                               "adipisicing elit. Laudantium natus dignissimos nesciunt harum eveniet dolore esse,"}/>
                     <Skill title={'CSS'} src={cssIcon} description={"lorem is Lorem ipsum dolor sit amet consectetur" +
                         " adipisicing elit. Aliquid, similique.Lorem ipsum dolor sit amet, consectetur " +
                         "adipisicing elit. Laudantium natus dignissimos nesciunt harum eveniet dolore esse,"}/>
-                    <Skill title={'REACT'} src={reactIcon} description={"lorem is Lorem ipsum dolor sit amet consectetur" +
-                        " adipisicing elit. Aliquid, similique.Lorem ipsum dolor sit amet, consectetur " +
-                        "adipisicing elit. Laudantium natus dignissimos nesciunt harum eveniet dolore esse,"}/>
+                    <Skill title={'REACT'} src={reactIcon}
+                           description={"lorem is Lorem ipsum dolor sit amet consectetur" +
+                               " adipisicing elit. Aliquid, similique.Lorem ipsum dolor sit amet, consectetur " +
+                               "adipisicing elit. Laudantium natus dignissimos nesciunt harum eveniet dolore esse,"}/>
                 </div>
             </div>
         </div>

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3e5504-5d81-4184-9468-37a7bddbf088" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Common/Components/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Components/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Common/Styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Styles/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/Project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/works.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/works.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
       <recent name="I:\React-Project\Exam\exam-app\src\Components\Body\AboutMe" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,8 +71,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
       </list>
     </recent_temporary>
@@ -97,7 +111,10 @@
       <workItem from="1659680920982" duration="15510000" />
       <workItem from="1660127358701" duration="16237000" />
       <workItem from="1660223027811" duration="2097000" />
-      <workItem from="1661326380330" duration="3969000" />
+      <workItem from="1661326380330" duration="4763000" />
+      <workItem from="1663242245930" duration="1974000" />
+      <workItem from="1663250522691" duration="16333000" />
+      <workItem from="1663308390900" duration="12241000" />
     </task>
     <servers />
   </component>

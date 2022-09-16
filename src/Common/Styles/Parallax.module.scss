@@ -1,0 +1,65 @@
+
+
+.wrapper{
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 100px;
+
+  .item{
+    width: 1000px;
+    height: 1000px;
+  }
+  .components{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+  .layers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    transform-style: preserve-3d;
+    z-index: -1;
+
+    .firstLayer{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -1;
+      background-image: url("./../../assets/image/wgbg.jpg");
+      transform: translateZ(-50px) scale(1.5);
+    }
+    .secondLayer{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -1;
+      background-image: url("./../../assets/image/wgtt.jpg");
+      transform: translateZ(-50px) scale(1.5);
+    }
+    .thirdLayer{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      z-index: -1;
+      background-image: url("./../../assets/image/wgbg2.jpg");
+      transform: translateZ(-50px) scale(1.5);
+    }
+  }
+}
+//.firstLayer{
+//  position: absolute;
+//  height: 80%;
+//  width: 100%;
+//  object-fit: cover;
+//  z-index: -1;
+//  background-image: url("./../../assets/image/wbg2.jpg");
+//  transform: translateZ(-50px) scale(1.5);
+//}
