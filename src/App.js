@@ -6,6 +6,7 @@ import Works from "./Components/Body/Works/Works";
 import AboutMe from "./Components/Body/AboutMe/AboutMe";
 import Contacts from "./Components/Body/Contacts/Contacts";
 import common from './Common/Styles/Parallax.module.scss'
+import {Quote} from "./Common/Components/Quote/Quote";
 function App() {
     return (
         <div className="App">
@@ -16,7 +17,12 @@ function App() {
                 </div>
                 <div className={common.layers}>
 
-                    <div className={`${common.item} ${common.firstLayer}`}></div>
+                    <div className={`${common.item} ${common.firstLayer}`}>
+
+                        <Quote title={'Any fool can write code that a machine can understand. Good programmers write code that humans can understand'}
+                               author={'Martin Fowler'}/>
+
+                    </div>
 
                 </div>
                 <div className={`${common.item} ${common.components}`}>
@@ -24,14 +30,24 @@ function App() {
                 </div>
                 <div className={common.layers}>
 
-                    <div className={`${common.item} ${common.secondLayer}`}></div>
+                    <div className={`${common.item} ${common.secondLayer}`}>
+
+                        <Quote title={'Programming is a breakdown of something big and impossible into something small and quite real'}
+                               author={'Jazzwant'}/>
+
+                    </div>
                 </div>
                 <div className={`${common.item} ${common.components}`}>
                    <Works/>
                 </div>
                 <div className={common.layers}>
 
-                    <div className={`${common.item} ${common.thirdLayer}`}></div>
+                    <div className={`${common.item} ${common.thirdLayer}`}>
+
+                        <Quote title={'To write clean code, we first write dirty code and then refactor it'}
+                               author={'Robert Martin'}/>
+
+                    </div>
 
                 </div>
                 <div className={`${common.item} ${common.components}`}>

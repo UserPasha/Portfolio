@@ -1,22 +1,24 @@
+@import "variables";
 
-
-.wrapper{
+.wrapper {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 100px;
 
-  .item{
+  .item {
     width: 1000px;
     height: 1000px;
   }
-  .components{
+
+  .components {
     position: relative;
     width: 100%;
     height: 100%;
 
   }
-  .layers{
+
+  .layers {
     position: relative;
     display: flex;
     justify-content: center;
@@ -25,35 +27,72 @@
     transform-style: preserve-3d;
     z-index: -1;
 
-    .firstLayer{
+    .firstLayer {
+      font-family: 'Merriweather', serif;
       position: absolute;
       height: 100%;
       width: 100%;
       object-fit: cover;
       z-index: -1;
-      background-image: url("./../../assets/image/wgbg.jpg");
+      background-image: url("./../../assets/image/bbt.jpg");
       transform: translateZ(-50px) scale(1.5);
+      text-align: center;
+
+      blockquote{
+        @include blockQuote(40px);
+
+        p{
+          @include paragraph(30px);
+        }
+
+      }
+
     }
-    .secondLayer{
+
+    .secondLayer {
+      font-family: 'Merriweather', serif;
       position: absolute;
       height: 100%;
       width: 100%;
       object-fit: cover;
       z-index: -1;
-      background-image: url("./../../assets/image/wgtt.jpg");
+      background-image: url("./../../assets/image/bbtRev.jpg");
       transform: translateZ(-50px) scale(1.5);
+      text-align: center;
+
+      blockquote{
+        @include blockQuote(40px);
+
+        p{
+          @include paragraph(30px);
+        }
+
+      }
     }
-    .thirdLayer{
+
+    .thirdLayer {
+      font-family: 'Merriweather', serif;
       position: absolute;
       height: 100%;
       width: 100%;
       object-fit: cover;
       z-index: -1;
-      background-image: url("./../../assets/image/wgbg2.jpg");
+      background-image: url("./../../assets/image/bbt.jpg");
       transform: translateZ(-50px) scale(1.5);
+      text-align: center;
+
+      blockquote{
+        @include blockQuote(40px);
+
+        p{
+          @include paragraph(30px);
+        }
+
+      }
     }
   }
 }
+
 //.firstLayer{
 //  position: absolute;
 //  height: 80%;

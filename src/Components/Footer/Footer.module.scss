@@ -35,10 +35,22 @@
     justify-content: space-around;
 
     .item {
-      width: 80px;
-      height: 60px;
-      background-color: black;
-      border: 1px solid $primaryColor;
+      width: 70px;
+      height: 70px;
+      background-color: $secondBackGround;
+      border: 2px solid $primaryColor;
+      border-radius: 50%;
+
+      img{
+        margin-top: 10px;
+        max-width: 50px;
+        cursor: pointer;
+
+        &:hover{
+          transform: scale(1.2);
+          transition: 0.5s;
+        }
+      }
     }
   }
 

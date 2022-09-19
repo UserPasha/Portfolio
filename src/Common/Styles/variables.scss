@@ -1,5 +1,19 @@
-$backGroundColor: #D8D8D8;
-$secondBackGround: #624526;
-$primaryColor: #D1B365;
-$secondPrimaryColor:#D1B365;
+$backGroundColor: #33D2F0;
+$secondBackGround: #042534;
+$primaryColor: #33D2F0;
+$secondPrimaryColor:#33D2F0;
 $textColor: #fff;
+@mixin blockQuote($fontSize){
+  color: $textColor;
+  margin: 20% auto;
+  font-size: $fontSize;
+  font-style: italic;
+  padding: 20px;
+}
+@mixin paragraph($fontSize){
+  position: relative;
+  text-align: end;
+  font-style: normal;
+  font-size: $fontSize;
+  padding: 20px;
+}

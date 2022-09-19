@@ -6,13 +6,14 @@ import Title from "../../../Common/Components/Title";
 import htmlIcon from "./../../../assets/image/Html.svg"
 import cssIcon from "./../../../assets/image/Css.svg"
 import reactIcon from "./../../../assets/image/React.svg"
-import common from './../../../Common/Styles/Parallax.module.scss'
+import Fade from 'react-reveal/Fade';
 
 
 const Skills = () => {
     return (
-        <div className={c.skillsWrapper}>
+        <div className={c.skillsWrapper} id='skills'>
             <div className={`${cont.container} ${c.skillsContainer}`}>
+                <Fade bottom>
                 <Title text={"My Skills"}/>
 
                 <div className={c.skills}>
@@ -29,6 +30,7 @@ const Skills = () => {
                                " adipisicing elit. Aliquid, similique.Lorem ipsum dolor sit amet, consectetur " +
                                "adipisicing elit. Laudantium natus dignissimos nesciunt harum eveniet dolore esse,"}/>
                 </div>
+                </Fade>
             </div>
         </div>
     );

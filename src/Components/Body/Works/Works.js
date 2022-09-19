@@ -5,26 +5,30 @@ import Project from "./Project/Project";
 import Title from "../../../Common/Components/Title";
 import socialImg from "./../../../assets/image/social.png"
 import todoImg from "./../../../assets/image/todo.png"
+import Fade from 'react-reveal/Fade';
 
 const Works = () => {
     const social = {
         backgroundImage: `url(${socialImg})`
     }
     const todoList = {
-        backgroundImage:`url(${todoImg})`
+        backgroundImage: `url(${todoImg})`
     }
     return (
-        <div className={c.worksWrapper}>
+        <div className={c.worksWrapper} id='works'>
             <div className={`${cont.container} ${c.worksContainer}`}>
+                <Fade bottom>
+                    <Title text={"My Projects"}/>
 
-                <Title text={"My Projects"}/>
-
-                <div className={c.projects}>
-                    <Project style={social} name={"Social Network"} description={"lorem is Lorem ipsum dolor sit amet consectetur" +
-                        " adipisicing elit. Aliquid, similique."}/>
-                    <Project style={todoList} name={"Todolist App"} description={"lorem is Lorem ipsum dolor sit amet consectetur" +
-                        " adipisicing elit. Aliquid, similique."}/>
-                </div>
+                    <div className={c.projects}>
+                        <Project style={social} name={"Social Network"}
+                                 description={"lorem is Lorem ipsum dolor sit amet consectetur" +
+                                     " adipisicing elit. Aliquid, similique."}/>
+                        <Project style={todoList} name={"Todolist App"}
+                                 description={"lorem is Lorem ipsum dolor sit amet consectetur" +
+                                     " adipisicing elit. Aliquid, similique."}/>
+                    </div>
+                </Fade>
             </div>
         </div>
     );
