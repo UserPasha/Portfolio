@@ -1,0 +1,61 @@
+@import './src/Common/Styles/variables';
+
+.nav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 20px;
+  width: 230px;
+  margin-right: 20px;
+  z-index: 5;
+
+  .toggle {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: $secondBackGround;
+    padding: 5px 0;
+
+    &:before {
+      content: 'Menu';
+      margin-right: 20px;
+    }
+
+    span {
+      position: relative;
+      width: 20px;
+      height: 50px;
+      margin-right: 20px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $secondBackGround;
+        transition: 0.5s;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $secondBackGround;
+        transition: 0.5s;
+      }
+    }
+  }
+
+}

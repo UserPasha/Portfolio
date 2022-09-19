@@ -7,12 +7,15 @@ import AboutMe from "./Components/Body/AboutMe/AboutMe";
 import Contacts from "./Components/Body/Contacts/Contacts";
 import common from './Common/Styles/Parallax.module.scss'
 import {Quote} from "./Common/Components/Quote/Quote";
+import React from "react";
+import {Menu} from "./Components/Header/Menu";
 function App() {
     return (
         <div className="App">
             <div className={common.wrapper}>
                 <div className={`${common.item} ${common.components}`}>
                    <Header/>
+                    <Menu/>
                     <AboutMe/>
                 </div>
                 <div className={common.layers}>
