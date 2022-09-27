@@ -6,6 +6,7 @@ import Works from "./Components/Body/Works/Works";
 import AboutMe from "./Components/Body/AboutMe/AboutMe";
 import Contacts from "./Components/Body/Contacts/Contacts";
 import common from './Common/Styles/Parallax.module.scss'
+import burger from './Common/Styles/SetBurger.module.scss'
 import {Quote} from "./Common/Components/Quote/Quote";
 import React from "react";
 import {Menu} from "./Components/Header/Menu";
@@ -15,7 +16,10 @@ function App() {
             <div className={common.wrapper}>
                 <div className={`${common.item} ${common.components}`}>
                    <Header/>
-                    <Menu/>
+                    <div className={burger.open}>
+                        <Menu/>
+                    </div>
+
                     <AboutMe/>
                 </div>
                 <div className={common.layers}>

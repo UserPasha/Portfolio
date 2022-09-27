@@ -7,9 +7,9 @@ import Fade from 'react-reveal/Fade';
 const Contacts = () => {
     return (
         <div className={c.contactsWrapper} id='contacts'>
-            <Fade bottom>
-                <div className={`${cont.container} ${c.contactsContainer}`}>
 
+            <div className={`${cont.container} ${c.contactsContainer}`}>
+                <Fade bottom>
                     <Title text={"Contacts"}/>
 
                     <form className={c.contactsForm}>
@@ -18,8 +18,9 @@ const Contacts = () => {
                         <textarea placeholder={"Write your message"}/>
                     </form>
                     <button type={"submit"}>Send</button>
-                </div>
-            </Fade>
+                </Fade>
+            </div>
+
         </div>
     );
 };

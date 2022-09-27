@@ -1,10 +1,10 @@
 @import './src/Common/Styles/variables';
 .nav{
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 10px;
+  right: 10px;
   height: 20px;
-  width: 230px;
+  width: 200px;
   margin-right: 20px;
   z-index: 5;
   .toggle{
@@ -13,7 +13,8 @@
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #fff;
+    background-color: $primaryColor;
+    border-radius: 15px;
     cursor: pointer;
     display: flex;
     justify-content: flex-end;
@@ -21,8 +22,9 @@
     color: $secondBackGround;
     padding: 5px 0;
     &:before{
-      content: 'Close';
-      margin-right: 20px;
+      content: 'CLOSE';
+      font-weight: bold;
+      margin-right: 40px;
     }
     span {
       position: relative;
@@ -65,20 +67,28 @@
       position: relative;
       list-style: none;
       transition: 0.5s;
-
+      border: 1px $textColor solid;
+      padding: 5px;
+      border-radius: 15px;
+      background-color: $backGroundColor;
+      margin-top: 10px;
+      text-align: center;
+      &:hover{
+        background-color: $textColor;
+      }
 
       a {
         position: relative;
         text-decoration: none;
         display: block;
         padding: 10px 20px;
-        height: 50px;
-        background-color: #fff;
+        height: 30px;
+        background-color: $backGroundColor;
         color: $secondBackGround;
         transition: 0.5s;
         &:hover{
-          background-color: $backGroundColor;
-          color: #fff;
+          background-color: $textColor;
+          color: $secondBackGround;
           transition: 0s;
         }
       }
