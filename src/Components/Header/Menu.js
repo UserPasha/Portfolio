@@ -13,12 +13,14 @@ export const Menu = () => {
                 <div className={burger.toggle}>
                     <span onClick={OpenMenu}></span>
                 </div>
+                <div className={burger.background}>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="#skills">SKILLS</a></li>
                     <li><a href="#works">PROJECTS</a></li>
                     <li><a href="#contacts">CONTACTS</a></li>
                 </ul>
+                </div>
             </div>)
             : (
 
@@ -26,12 +28,7 @@ export const Menu = () => {
             <div className={active.toggle}>
             <span onClick={OpenMenu}></span>
             </div>
-        {/*<ul>*/}
-        {/*    <li><a href="">HOME</a></li>*/}
-        {/*    <li><a href="#skills">SKILLS</a></li>*/}
-        {/*    <li><a href="#works">PROJECTS</a></li>*/}
-        {/*    <li><a href="#contacts">CONTACTS</a></li>*/}
-        {/*</ul>*/}
+
             </div>)
         }
     </>

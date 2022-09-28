@@ -10,7 +10,7 @@ export const Form = ({setIsSent}) => {
     const { register, handleSubmit,reset } = useForm();
     const onSubmit = (data) =>{
         setIsDisabled(true)
-        axios.post('http://localhost:4000/sendMessage', {data})
+        axios.post('https://smtp-ser-ver-for.herokuapp.com/sendMessage', {data})
             .then(()=>{
                 setIsDisabled(false)
                 setIsSent(true)

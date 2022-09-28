@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3e5504-5d81-4184-9468-37a7bddbf088" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/SendPage/SendPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/SendPage/SendPage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Common/Components/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Components/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Gmail-nodeJS" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -120,6 +115,8 @@
       <workItem from="1664346872118" duration="2241000" />
       <workItem from="1664349149502" duration="6343000" />
       <workItem from="1664357817721" duration="1197000" />
+      <workItem from="1664359920983" duration="57000" />
+      <workItem from="1664368695838" duration="2006000" />
     </task>
     <servers />
   </component>
