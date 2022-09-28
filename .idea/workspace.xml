@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d3e5504-5d81-4184-9468-37a7bddbf088" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Common/Styles/SetBurger.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/SendPage/SendPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/SendPage/SendPage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Common/Components/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Components/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/works.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/works.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Active.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Active.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +116,10 @@
       <workItem from="1663308390900" duration="12368000" />
       <workItem from="1663534069839" duration="920000" />
       <workItem from="1663576704594" duration="22333000" />
-      <workItem from="1664286866092" duration="5283000" />
+      <workItem from="1664286866092" duration="5589000" />
+      <workItem from="1664346872118" duration="2241000" />
+      <workItem from="1664349149502" duration="6343000" />
+      <workItem from="1664357817721" duration="1197000" />
     </task>
     <servers />
   </component>

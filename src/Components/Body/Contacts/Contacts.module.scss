@@ -14,65 +14,6 @@
     justify-content: flex-start;
     flex-direction: column;
 
-    button {
-      width: 150px;
-      height: 50px;
-      margin-top: 50px;
-      cursor: pointer;
-      background-color: $secondBackGround;
-      color: $textColor;
-      font-size: 18px;
-      font-weight: bold;
-
-      &:hover {
-        background-color: $textColor;
-        color: $secondBackGround;
-      }
-    }
-
-    .contactsForm {
-      margin-top: 50px;
-      display: flex;
-      flex-direction: column;
-
-      input {
-        min-width: 500px;
-        //max-width: 500px;
-        height: 50px;
-        margin-top: 20px;
-        border: none;
-        outline: none;
-        background: transparent;
-        border-bottom: 2px solid $secondBackGround;
-        padding: 10px 0;
-        color: $textColor;
-        font-size: 18px;
-
-        &::placeholder{
-          color: $secondBackGround
-        }
-      }
-
-      textarea {
-        min-width: 500px;
-        //max-width: 500px;
-        height: 250px;
-        margin-top: 20px;
-        border: none;
-        outline: none;
-        background: transparent;
-        border-bottom: 2px solid $primaryColor;
-        padding: 10px 0;
-        color: $textColor;
-        font-size: 18px;
-        font-weight: 300;
-
-        &::placeholder{
-          color: $secondBackGround
-        }
-      }
-
-    }
   }
 }
 
@@ -80,18 +21,7 @@
   .contactsWrapper {
     width: 100%;
 
-    .contactsContainer {
-      .contactsForm {
-        input {
-          min-width: 300px;
-          height: 40px;
-        }
-
-        textarea {
-          min-width: 300px;
-        }
-      }
-    }
   }
 }
+
 

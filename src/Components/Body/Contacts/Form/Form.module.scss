@@ -1,0 +1,82 @@
+@import 'src/Common/Styles/variables.scss';
+
+.contactsForm {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    min-width: 500px;
+    //max-width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid $secondBackGround;
+    padding: 10px 0;
+    color: $textColor;
+    font-size: 18px;
+
+    &::placeholder {
+      color: $secondBackGround
+    }
+  }
+  textarea {
+    min-width: 500px;
+    //max-width: 500px;
+    height: 250px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid $primaryColor;
+    padding: 10px 0;
+    color: $textColor;
+    font-size: 18px;
+    font-weight: 300;
+
+    &::placeholder {
+      color: $secondBackGround
+    }
+  }
+
+  button {
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: $secondBackGround;
+    color: $textColor;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:disabled {
+      background-color: grey;
+
+      &:hover {
+        background-color: grey;
+        color: $textColor;
+      }
+    }
+
+    &:hover {
+      background-color: $textColor;
+      color: $secondBackGround;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contactsForm {
+    input {
+      min-width: 300px;
+      height: 40px;
+    }
+
+    textarea {
+      min-width: 300px;
+    }
+  }
+
+}
