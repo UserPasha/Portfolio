@@ -11,9 +11,6 @@ const Skill = (props) => {
             <h3 className={c.skillTitle}>
                 {props.title}
             </h3>
-            <span className={c.description}>
-                {props.description}
-            </span>
         </div>
     );
 };

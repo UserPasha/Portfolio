@@ -32,6 +32,7 @@
       position: absolute;
       height: 100%;
       width: 100%;
+      margin-top: 420px;
       object-fit: cover;
       z-index: -1;
       background-image: url("./../../assets/image/bbt.jpg");
@@ -59,8 +60,9 @@
     .secondLayer {
       font-family: 'Merriweather', serif;
       position: absolute;
-      height: 100%;
+      height: 120%;
       width: 100%;
+      margin-top: 400px;
       object-fit: cover;
       z-index: -1;
       background-image: url("./../../assets/image/bbtRev.jpg");
@@ -68,6 +70,9 @@
       text-align: center;
       @media screen and (max-width: 768px){
         margin-top: 1500px;
+      }
+      @media screen and (max-width: 679px){
+        margin-top: 4200px;
       }
 
       blockquote{
@@ -85,8 +90,9 @@
     .thirdLayer {
       font-family: 'Merriweather', serif;
       position: absolute;
-      height: 100%;
+      height: 110%;
       width: 100%;
+      margin-top: 400px;
       object-fit: cover;
       z-index: -1;
       background-image: url("./../../assets/image/bbt.jpg");

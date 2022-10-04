@@ -30,11 +30,13 @@
       width: 160px;
       height: 50px;
       margin-top: 250px;
+      font-size: 20px;
+      font-weight: bold;
       background: $backGroundColor;
-      color: $textColor;
+      color: $secondBackGround;
       cursor: pointer;
       &:hover{
-        background: $textColor;
+        background: $secondBackGround;
         color: $backGroundColor;
 
       }
@@ -58,7 +60,7 @@
   }
 }
 
-@media (max-width: 360px){
+@media (max-width: 359px){
   .projectWrapper{
     max-width: 300px;
     height: 500px;

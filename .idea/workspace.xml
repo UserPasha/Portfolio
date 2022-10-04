@@ -3,11 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="6d3e5504-5d81-4184-9468-37a7bddbf088" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Common/Styles/Container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Styles/Container.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Common/Styles/Parallax.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Contacts/Form/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/AboutMe/AboutMe.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skill/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skill/Skill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Menu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/Project/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/Project/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/Project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/Project/Project.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/Works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/Works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Body/Works/works.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Body/Works/works.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/image/todo.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Gmail-nodeJS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -77,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +125,10 @@
       <workItem from="1664349149502" duration="6343000" />
       <workItem from="1664357817721" duration="1197000" />
       <workItem from="1664359920983" duration="57000" />
-      <workItem from="1664368695838" duration="2006000" />
+      <workItem from="1664368695838" duration="2425000" />
+      <workItem from="1664379761347" duration="1205000" />
+      <workItem from="1664436492265" duration="93000" />
+      <workItem from="1664877596675" duration="6133000" />
     </task>
     <servers />
   </component>

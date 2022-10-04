@@ -7,8 +7,9 @@
   min-height: 100vh;
   width: 100%;
   padding-bottom: 100px;
-  &::before{
-    content:'';
+
+  &::before {
+    content: '';
     position: absolute;
     inset: 0;
     background-color: $backGroundColor;
@@ -16,13 +17,14 @@
     height: 500px;
     transform: rotate(45deg);
     z-index: -1;
-    @media  (max-width: 768px){
+    @media (max-width: 768px) {
       width: 300px;
       height: 300px;
     }
   }
-  &::after{
-    content:'';
+
+  &::after {
+    content: '';
     position: absolute;
     top: 50%;
     left: 60%;
@@ -39,22 +41,26 @@
 
     .skills {
       width: 100%;
+      margin-top: 100px;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-z-index: 1;
-    }
-  }
-}
-
-@media  (max-width: 768px), (min-width: 768px){
-  .skillsWrapper{
-    .skillsContainer{
-      .skills{
+      z-index: 1;
+      @media  (max-width: 768px){
         justify-content: center;
       }
     }
   }
 }
+
+//@media  (max-width: 768px), (min-width: 768px){
+//  .skillsWrapper{
+//    .skillsContainer{
+//      .skills{
+//        justify-content: center;
+//      }
+//    }
+//  }
+//}
 
 

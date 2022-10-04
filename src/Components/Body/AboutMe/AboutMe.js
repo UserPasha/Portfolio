@@ -3,6 +3,7 @@ import c from "./AboutMe.module.scss"
 import cont from "../../../Common/Styles/Container.module.scss"
 import Fade from 'react-reveal/Fade';
 import Tilt from "react-tilt";
+import photo from './../../../assets/image/photo.jpg'
 
 const AboutMe = () => {
     return (
@@ -18,7 +19,9 @@ const AboutMe = () => {
                 </Fade>
                 <Fade right>
                     <Tilt className='Tilt'  options={{ max : 10 }}>
-                    <div className={c.photo}></div>
+                    <div className={c.photo}>
+                        <img src={photo} alt={'avatar picture'}/>
+                    </div>
                     </Tilt>
                 </Fade>
             </div>
